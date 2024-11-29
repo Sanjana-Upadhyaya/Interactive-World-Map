@@ -25,23 +25,21 @@
 svg {
     display: block;
     margin: 0 auto;
-    border: 2px solid #aaa;
-    /*box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);*/
 }
 
 .country {
-    fill: #826e3c; /* Metallic gold */
-    stroke: black;
-    stroke-width: 0.5;
+    fill: #000000; /* Metallic gold */
+    stroke: #826e3c;
+    stroke-width: 0.75;
     filter: url(#glow); /* Apply glow filter */
 }
 .country:hover {
-    fill: #000000;
+    fill: #fff;
     cursor: pointer;
 }
 
 .india {
-    fill: none;
-    stroke: red;
-    stroke-width: 1.5;
+    fill: #000000;
+    stroke: #826e3c;
+    stroke-width: 0.75;
 }
